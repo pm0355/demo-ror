@@ -10,7 +10,7 @@ class DemoController < ApplicationController
   end
 
   def other_hello
-    redirect_to(:controller => 'demo', :action => 'index')
+    redirect_to(:controller => 'demo', :action => 'hello')
     # redirect_to(:action => 'index')
   end
 
